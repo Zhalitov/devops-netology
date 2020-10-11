@@ -1,0 +1,1 @@
+Благодаря добавленному файлу .gitignore будут проигнорированы файлы с расширением .tfstate, файл логов, .tfvars, override.tf, override.tf.json,*_override.tf, *_override.tf.json, terraformrc.
