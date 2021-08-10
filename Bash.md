@@ -87,13 +87,37 @@ for ((i=1; i<5; i++))
 while ((1==1))
     do
     curl 192.168.0.1:80
+if (($? != 0))
+then
+    date > curl.log
+else
+    echo "error 192.168.0.1"
+fi
+done
+done
+for ((i=1; i<5; i++))
+    do 
+while ((1==1))
+    do
     curl 173.194.222.113:80 
+if (($? != 0))
+then
+    date > curl.log
+else
+    echo "error 173.194.222.113"
+fi
+done
+done
+for ((i=1; i<5; i++))
+    do 
+while ((1==1))
+    do
     curl 87.250.250.242:80
 if (($? != 0))
 then
     date > curl.log
 else
-    echo "error"
+    echo "error 87.250.250.242"
 fi
 done
 done
